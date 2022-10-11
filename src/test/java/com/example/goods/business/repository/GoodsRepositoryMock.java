@@ -33,7 +33,6 @@ public class GoodsRepositoryMock implements GoodsRepository {
 	@Override
 	public int deleteGoods(int goodsCode){
 		if(goodsCode == 1) return 1;
-
 		return 0;
 	}
 
@@ -45,5 +44,4 @@ public class GoodsRepositoryMock implements GoodsRepository {
 		if(goodsCode == 1001) return false;
 		 return false;
 	}
-
 }

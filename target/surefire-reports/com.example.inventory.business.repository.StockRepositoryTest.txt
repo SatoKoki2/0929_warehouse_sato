@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.example.inventory.business.repository.StockRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.157 s <<< FAILURE! - in com.example.inventory.business.repository.StockRepositoryTest
+testDeleteStock_異常系_削除済みの商品コード  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+
+testDeleteStock_異常系_存在しない商品コード  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+
+testDeleteStock_正常系  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+
